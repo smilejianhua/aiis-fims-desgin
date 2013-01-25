@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhh1wwlp86-wakl8o">
+		<property name="$defaultDiagram" value="true"/>
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="visibility" value="public"/>
+		<reference referencedUin="design:view:::V1hexuhh1x96oozvfz09e">
+			<property name="bounds" value="1931,5,142,96"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhh1x98iihfklriv">
+			<property name="bounds" value="1931,145,147,164"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:FileToSchedule">
+			<property name="bounds" value="1981,548,183,119"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:e_class:src:FileToSchedule.DailyFlightPlan">
+				<property name="bounds" value="11,-30,198,116"/>
+				<property name="location_set_by_user" value="true"/>
+				<reference referencedUin="jdt:l_ast:src:FileToSchedule.DailyFlightPlan:longFlightPlan">
+					<property name="sourceAnchor" value="1991,662"/>
+					<property name="targetAnchor" value="848,662"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:ScheduleService">
+			<property name="bounds" value="349,1047,200,136"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:ExcelToSchedule">
+			<property name="bounds" value="1612,108,183,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_impl:src:ExcelToSchedule:FileToSchedule">
+				<property name="sourceAnchor" value="1708,193"/>
+				<property name="targetAnchor" value="2077,553"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:CVSToSchedule">
+			<property name="bounds" value="1562,1075,183,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_impl:src:CVSToSchedule:FileToSchedule">
+				<property name="sourceAnchor" value="1658,1080"/>
+				<property name="targetAnchor" value="2077,672"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:FlightSeasonService">
+			<property name="bounds" value="5,46,179,119"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:FlightSeasonService:lnkFlightSeason">
+				<property name="sourceAnchor" value="189,110"/>
+				<property name="targetAnchor" value="269,110"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:FlightSeason">
+			<property name="bounds" value="264,5,168,201"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhh3vbmjsu-bvp35c">
+			<property name="bounds" value="2034,725,179,96"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Schedule">
+			<property name="bounds" value="1492,414,153,388"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:ScheduleSpecification">
+			<property name="bounds" value="2214,524,162,167"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:ScheduleSpecification:schedule">
+				<property name="sourceAnchor" value="2219,539"/>
+				<property name="targetAnchor" value="1650,531"/>
+			</reference>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhh3wd24rr-92qvtj">
+			<property name="bounds" value="2098,305,124,79"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:ScheduleServiceImpl">
+			<property name="bounds" value="349,533,200,150"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_impl:src:ScheduleServiceImpl:ScheduleService">
+				<property name="sourceAnchor" value="454,688"/>
+				<property name="targetAnchor" value="454,1052"/>
+			</reference>
+			<reference referencedUin="jdt:l_impl:src:ScheduleServiceImple:ScheduleService">
+				<property name="sourceAnchor" value="469,100"/>
+				<property name="targetAnchor" value="410,100"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:ScheduleServiceImpl:fs">
+				<property name="sourceAnchor" value="554,658"/>
+				<property name="targetAnchor" value="1986,649"/>
+				<property name="bendpoints" value="784,837,1623,837"/>
+				<property name="smooth_bendpoints" value="784,837,1623,837"/>
+				<property name="location_set_by_user" value="true"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:FlightLongTemPlan">
+			<property name="bounds" value="643,507,200,201"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:FlightLongTemPlan:oriLongFlightPlan">
+				<property name="sourceAnchor" value="748,713"/>
+				<property name="targetAnchor" value="994,952"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:NativeFlightLongTermPlan">
+			<property name="bounds" value="925,947,194,235"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="collapsedCompartments" value="Property20"/>
+			<reference referencedUin="jdt:l_ast:src:NativeFlightLongTermPlan:schedule">
+				<property name="sourceAnchor" value="1059,952"/>
+				<property name="targetAnchor" value="1573,807"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:FlightPlan">
+			<property name="bounds" value="934,5,200,286"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:FlightPlan:viaAirport">
+				<property name="sourceAnchor" value="939,153"/>
+				<property name="targetAnchor" value="846,153"/>
+				<reference referencedUin="label:clientCardinality:jdt:l_ast:src:FlightPlan:viaAirport">
+					<property name="bounds" value="918,129,11,21"/>
+				</reference>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:FlightPlan:viaAirport">
+					<property name="bounds" value="856,129,22,21"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:FlightPlan:longFlightPlan">
+				<property name="sourceAnchor" value="977,296"/>
+				<property name="targetAnchor" value="748,512"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:FlightPlan:joinedFlight">
+				<property name="sourceAnchor" value="1015,296"/>
+				<property name="targetAnchor" value="1015,529"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:FlightPlan:joinedFlight">
+					<property name="bounds" value="1018,498,22,21"/>
+				</reference>
+				<reference referencedUin="label:clientCardinality:jdt:l_ast:src:FlightPlan:joinedFlight">
+					<property name="bounds" value="1018,305,11,21"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:ConnectingFlight">
+			<property name="bounds" value="1287,567,185,82"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:ConnectingFlight:firstFlightPlan">
+				<property name="sourceAnchor" value="1353,572"/>
+				<property name="targetAnchor" value="1056,296"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:ConnectingFlight:secondFlightPlan">
+				<property name="sourceAnchor" value="1415,572"/>
+				<property name="targetAnchor" value="1097,296"/>
+			</reference>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhh3zgll2m-w38xuq">
+			<property name="bounds" value="2093,5,149,113"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:ViaAirport">
+			<property name="bounds" value="643,73,198,150"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:JoinedFlight">
+			<property name="bounds" value="893,524,194,167"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:FlightPlanService">
+			<property name="bounds" value="2098,145,200,119"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:ConnectionFlightRule">
+			<property name="bounds" value="1931,917,161,80"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+	</view>
+</nodeSet>

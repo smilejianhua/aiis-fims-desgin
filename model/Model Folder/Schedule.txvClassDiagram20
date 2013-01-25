@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhh1x98iihfklriv">
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="$name" value="Schedule"/>
+		<reference referencedUin="jdt:e_class:src:FileToSchedule">
+			<property name="bounds" value="75,35,183,119"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<property name="collapsedCompartments" value=""/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:ScheduleService">
+			<property name="bounds" value="435,195,200,136"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:ExcelToSchedule">
+			<property name="bounds" value="15,195,183,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="jdt:l_impl:src:ExcelToSchedule:FileToSchedule">
+				<property name="sourceAnchor" value="125,200"/>
+				<property name="targetAnchor" value="125,159"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:CVSToSchedule">
+			<property name="bounds" value="215,195,183,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="jdt:l_impl:src:CVSToSchedule:FileToSchedule">
+				<property name="sourceAnchor" value="241,200"/>
+				<property name="targetAnchor" value="241,159"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:ScheduleServiceImpl">
+			<property name="bounds" value="435,35,200,150"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="jdt:e_field:src:ScheduleServiceImpl.fs">
+			</reference>
+			<reference referencedUin="jdt:e_method:src:ScheduleServiceImpl.scheduleToFile:scheduleToFile~QList\&lt;QSchedule;&gt;;">
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:ScheduleServiceImpl:fs">
+				<property name="sourceAnchor" value="440,81"/>
+				<property name="targetAnchor" value="263,81"/>
+			</reference>
+			<reference referencedUin="jdt:l_impl:src:ScheduleServiceImpl:ScheduleService">
+				<property name="sourceAnchor" value="540,190"/>
+				<property name="targetAnchor" value="540,200"/>
+				<property name="location_set_by_user" value="true"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:JoinedFlight">
+			<property name="bounds" value="15,315,194,167"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+		</reference>
+	</view>
+</nodeSet>

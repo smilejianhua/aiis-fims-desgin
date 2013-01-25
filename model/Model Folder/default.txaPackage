@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<node uin="-46k66rh3zf5q64grc8d3">
+		<property name="$metaclass" value="Activity20"/>
+		<property name="$name" value="Activity1"/>
+	</node>
+	<node uin="-46k66rh3zf6gg3-uphwx8">
+		<property name="$metaclass" value="Activity20"/>
+		<property name="$name" value="时刻表导入流程"/>
+		<node uin="88joqsh3zf6xph-a33c8m">
+			<property name="$metaclass" value="InitialNode20"/>
+			<property name="$name" value="InitialNode20"/>
+			<link uin="ieje0rh3zf7ntf-b0j8ba">
+				<property name="$metaclass" value="Dependency20"/>
+				<participant referencedUin="design:node:::88joqsh3zf6xph-a33c8m:-46k66rh3zf6gg3-uphwx8" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4h3zf79xbo30eke:-46k66rh3zf6gg3-uphwx8" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="-qbjze4h3zf79xbo30eke">
+			<property name="$metaclass" value="Action20"/>
+			<property name="$name" value="选择航季"/>
+			<link uin="ieje0rh3zf8vd8cymyjn">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<participant referencedUin="design:node:::-qbjze4h3zf79xbo30eke:-46k66rh3zf6gg3-uphwx8" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4h3zf8o9k-y4z6c:-46k66rh3zf6gg3-uphwx8" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="-qbjze4h3zf8o9k-y4z6c">
+			<property name="$metaclass" value="Action20"/>
+			<property name="$name" value="时刻表导入"/>
+			<link uin="ieje0rh3zfa2fqd8pi2s">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<participant referencedUin="design:node:::-qbjze4h3zf8o9k-y4z6c:-46k66rh3zf6gg3-uphwx8" role="Client"></participant>
+				<participant referencedUin="design:node:::sbhn20h3zf9ldafvvxay:-46k66rh3zf6gg3-uphwx8" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="sbhn20h3zf9ldafvvxay">
+			<property name="$metaclass" value="MergeNode20"/>
+			<property name="$name" value="校验"/>
+		</node>
+	</node>
+</nodeSet>

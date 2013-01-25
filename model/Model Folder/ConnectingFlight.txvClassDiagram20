@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhh3zgll2m-w38xuq">
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="$name" value="ConnectingFlight"/>
+		<reference referencedUin="jdt:e_class:src:FlightPlan">
+			<property name="bounds" value="75,35,200,286"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:ConnectingFlight">
+			<property name="bounds" value="355,35,185,82"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:ConnectingFlight:firstFlightPlan">
+				<property name="sourceAnchor" value="360,81"/>
+				<property name="targetAnchor" value="280,81"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:ConnectingFlight:secondFlightPlan">
+				<property name="sourceAnchor" value="360,100"/>
+				<property name="targetAnchor" value="280,100"/>
+				<property name="location_set_by_user" value="true"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:ConnectionFlightRule">
+			<property name="bounds" value="355,195,161,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+		</reference>
+	</view>
+</nodeSet>

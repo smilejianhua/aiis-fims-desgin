@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhh3wd24rr-92qvtj">
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="$name" value="Service"/>
+		<reference referencedUin="jdt:e_class:src:FlightPlanService">
+			<property name="bounds" value="35,15,301,121"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+		</reference>
+	</view>
+</nodeSet>
